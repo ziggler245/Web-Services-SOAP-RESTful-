@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/soap/FightService?WSDL" uri="xml-resources/web-service-references/FightService/wsdl/localhost_8080/soap/FightService.wsdl"/>
+    <system systemId="http://localhost:8080/soap/getWorld?WSDL" uri="xml-resources/web-service-references/FightService/wsdl/localhost_8080/soap/getWorld.wsdl"/>
+    <system systemId="http://localhost:8080/soap/getWorld?xsd=1" uri="xml-resources/web-service-references/FightService/wsdl/localhost_8080/soap/getWorld.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/soap/FightService?wsdl" uri="xml-resources/web-service-references/FightService/wsdl/localhost_8080/soap/FightService.wsdl"/>
+    <system systemId="http://localhost:8080/soap/FightService?xsd=1" uri="xml-resources/web-service-references/FightService/wsdl/localhost_8080/soap/FightService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/soap/WrestleService?wsdl" uri="xml-resources/web-service-references/WrestleService/wsdl/localhost_8080/soap/WrestleService.wsdl"/>
+    <system systemId="http://localhost:8080/soap/WrestleService?xsd=1" uri="xml-resources/web-service-references/WrestleService/wsdl/localhost_8080/soap/WrestleService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/soap/Service?wsdl" uri="xml-resources/web-service-references/Service/wsdl/localhost_8080/soap/Service.wsdl"/>
+    <system systemId="http://localhost:8080/soap/Service?xsd=1" uri="xml-resources/web-service-references/Service/wsdl/localhost_8080/soap/Service.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/soap/WService?wsdl" uri="xml-resources/web-service-references/WService/wsdl/localhost_8080/soap/WService.wsdl"/>
+    <system systemId="http://localhost:8080/soap/WService?xsd=1" uri="xml-resources/web-service-references/WService/wsdl/localhost_8080/soap/WService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/SOAP_SERVER/WService?wsdl" uri="xml-resources/web-service-references/WService/wsdl/localhost_8080/SOAP_SERVER/WService.wsdl"/>
+    <system systemId="http://localhost:8080/SOAP_SERVER/WService?xsd=1" uri="xml-resources/web-service-references/WService/wsdl/localhost_8080/SOAP_SERVER/WService.xsd_1.xsd"/>
+</catalog>

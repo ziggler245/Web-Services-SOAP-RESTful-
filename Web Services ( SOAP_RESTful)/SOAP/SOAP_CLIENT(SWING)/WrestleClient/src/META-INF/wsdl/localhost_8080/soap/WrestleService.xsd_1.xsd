@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://ws/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ws/">
+
+<xs:element name="getAllFights" type="tns:getAllFights"/>
+
+<xs:element name="getAllFightsResponse" type="tns:getAllFightsResponse"/>
+
+<xs:element name="getAllWorlds" type="tns:getAllWorlds"/>
+
+<xs:element name="getAllWorldsResponse" type="tns:getAllWorldsResponse"/>
+
+<xs:complexType name="getAllWorlds">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getAllWorldsResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:world" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="world">
+<xs:sequence>
+<xs:element name="city" type="xs:string" minOccurs="0"/>
+<xs:element name="country" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getAllFights">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getAllFightsResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:fight" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fight">
+<xs:sequence>
+<xs:element name="city" type="xs:string" minOccurs="0"/>
+<xs:element name="country" type="xs:string" minOccurs="0"/>
+<xs:element name="date" type="xs:int"/>
+<xs:element name="freePlace" type="xs:string" minOccurs="0"/>
+<xs:element name="seatLetter" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
