@@ -6,7 +6,7 @@ Advantages:
 
 - use of Web Services Addressing.
 - error handling on the client and server.
-- use JDBC Connection Pool
-- use the Design Pattern "Singleton".
+- use of JDBC Connection Pool
+- use of Design Pattern "Singleton".
 - use of transactions.
 
