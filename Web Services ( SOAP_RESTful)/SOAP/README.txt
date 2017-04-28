@@ -8,5 +8,6 @@ Advantages:
 - error handling on the client and server.
 - asynchronous requests to the web service.
 - use the Design Pattern "Singleton".
+- use JDBC Connection Pool.
 - use of transactions.
 
